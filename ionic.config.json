@@ -1,0 +1,7 @@
+{
+  "name": "rosguide",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
