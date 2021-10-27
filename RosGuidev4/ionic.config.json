@@ -1,0 +1,7 @@
+{
+  "name": "RosGuidev4",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
