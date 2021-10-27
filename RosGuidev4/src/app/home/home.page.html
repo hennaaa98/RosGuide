@@ -8,6 +8,7 @@
   </ion-header>
   <ion-card>
     <ion-icon name="add-circle" style="font-size: 130px;color:dodgerblue "></ion-icon>
+   
     <ion-card-title style="font-size:x-large; color: tomato;" >
       Add a profile picture
     </ion-card-title>
@@ -15,10 +16,12 @@
   <ion-card >
     <ion-card-title style="color: tomato;">
       Personal Information
-    </ion-card-title>
+     </ion-card-title>
+   
     <div class="login-form-ion-padding">
+    
       <div class="form-input">
-
+        
      
         <ion-item lines="full">
     
@@ -35,8 +38,10 @@
        </ion-item>
        
         
-        <ion-button expand="full" class="ion-margin-top">Location</ion-button>
-      </div>
+        <ion-button id="btn" (click)="_openLocation($event)" expand="full"  class="ion-margin-top">
+          Location
+        </ion-button>
+         </div>
     </div>
     
    
