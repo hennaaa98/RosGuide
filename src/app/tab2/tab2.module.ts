@@ -12,6 +12,7 @@ import { AboutSatchmoComponent } from '../components/about-satchmo/about-satchmo
 import { AboutKornComponent } from '../components/about-korn/about-korn.component';
 import { AboutC48Component } from '../components/about-c48/about-c48.component';
 import { AboutVivaldiComponent } from '../components/about-vivaldi/about-vivaldi.component';
+import { AboutRibHouseComponent } from '../components/about-rib-house/about-rib-house.component';
 
 @NgModule({
 
@@ -22,7 +23,7 @@ import { AboutVivaldiComponent } from '../components/about-vivaldi/about-vivaldi
     ExploreContainerComponentModule,
     Tab2PageRoutingModule 
   ],
-  declarations: [Tab2Page, AboutKaffeKildenComponent, AboutSatchmoComponent, AboutKornComponent, AboutC48Component, AboutVivaldiComponent], // declare the component
-  entryComponents: [AboutKaffeKildenComponent, AboutSatchmoComponent, AboutKornComponent, AboutC48Component, AboutVivaldiComponent] // as well as declaring entry component.
+  declarations: [Tab2Page, AboutKaffeKildenComponent, AboutSatchmoComponent, AboutKornComponent, AboutC48Component, AboutVivaldiComponent, AboutRibHouseComponent], // declare the component
+  entryComponents: [AboutKaffeKildenComponent, AboutSatchmoComponent, AboutKornComponent, AboutC48Component, AboutVivaldiComponent, AboutRibHouseComponent] // as well as declaring entry component.
 })
 export class Tab2PageModule {}
