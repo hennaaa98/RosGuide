@@ -3,6 +3,7 @@ import { PopoverController } from '@ionic/angular'; //import the popover control
 
 import { AboutKaffeKildenComponent } from '../components/about-kaffe-kilden/about-kaffe-kilden.component'; // import the component.
 import { AboutSatchmoComponent } from '../components/about-satchmo/about-satchmo.component';
+import { AboutKornComponent } from '../components/about-korn/about-korn.component';
 
 
 @Component({
@@ -35,6 +36,14 @@ export class Tab2Page {
   async aboutSatchmo() {
     const popover = await this.popoverController.create({ 
       component: AboutSatchmoComponent,
+      translucent: true 
+    });
+    await popover.present(); 
+  }
+
+  async aboutKorn() {
+    const popover = await this.popoverController.create({ 
+      component: AboutKornComponent,
       translucent: true 
     });
     await popover.present(); 
