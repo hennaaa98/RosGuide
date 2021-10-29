@@ -5,6 +5,7 @@ import { AboutKaffeKildenComponent } from '../components/about-kaffe-kilden/abou
 import { AboutSatchmoComponent } from '../components/about-satchmo/about-satchmo.component';
 import { AboutKornComponent } from '../components/about-korn/about-korn.component';
 import { AboutC48Component } from '../components/about-c48/about-c48.component';
+import { AboutVivaldiComponent } from '../components/about-vivaldi/about-vivaldi.component';
 
 @Component({
   selector: 'app-tab2',
@@ -52,6 +53,14 @@ export class Tab2Page {
   async aboutC48() {
     const popover = await this.popoverController.create({ 
       component: AboutC48Component,
+      translucent: true 
+    });
+    await popover.present(); 
+  }
+
+  async aboutVivaldi() {
+    const popover = await this.popoverController.create({ 
+      component: AboutVivaldiComponent,
       translucent: true 
     });
     await popover.present(); 
