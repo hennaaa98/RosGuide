@@ -10,6 +10,7 @@ import { AboutKaffeKildenComponent } from '../components/about-kaffe-kilden/abou
 import { Tab2PageRoutingModule } from './tab2-routing.module';
 import { AboutSatchmoComponent } from '../components/about-satchmo/about-satchmo.component';
 import { AboutKornComponent } from '../components/about-korn/about-korn.component';
+import { AboutC48Component } from '../components/about-c48/about-c48.component';
 
 @NgModule({
 
@@ -20,7 +21,7 @@ import { AboutKornComponent } from '../components/about-korn/about-korn.componen
     ExploreContainerComponentModule,
     Tab2PageRoutingModule 
   ],
-  declarations: [Tab2Page, AboutKaffeKildenComponent, AboutSatchmoComponent, AboutKornComponent], // declare the component
-  entryComponents: [AboutKaffeKildenComponent, AboutSatchmoComponent, AboutKornComponent] // as well as declaring entry component.
+  declarations: [Tab2Page, AboutKaffeKildenComponent, AboutSatchmoComponent, AboutKornComponent, AboutC48Component], // declare the component
+  entryComponents: [AboutKaffeKildenComponent, AboutSatchmoComponent, AboutKornComponent, AboutC48Component] // as well as declaring entry component.
 })
 export class Tab2PageModule {}
